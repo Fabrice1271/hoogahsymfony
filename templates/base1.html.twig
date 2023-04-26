@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+      <link href="{{ asset('/css/style2.css')}}" rel="stylesheet"> 
+
+    </head>
+    <body>
+       
+        <header class="coteneur_header">
+            <div class="coteneur_menu">
+                <div class="logo"> 
+                    <p class="textlogo">
+                    <a href="home"><img src="img/logo/WATCH STYLE.png" alt=""></a>  
+                </div> 
+                <div class="recherche">
+                    <p class="textserch">Recherche <input id="searchbar" onkeyup="search_montres()" type="text"
+                        name="search" placeholder="  search_montres.."></p>
+                </div>
+                <div class="information">
+                    <div class="icon">
+                    <a href="connexion"><img src="img/logo/Vector (3).png" alt=""></a>
+                    </div>
+                    <div class="icon1">
+                        <img src="img/logo/Vector (6).png" alt="">
+                    </div>
+                    <div class="icon2">
+                        <img src="img/logo/Vector (4).png" alt="">
+                    </div> 
+                </div>     
+            </div>
+            
+            
+            <div class="menu">
+                <a href="montrehomme"><p class="Montres Hommes">Montres Hommes</a></p>
+                <a href="montrefemme"><p class="Montres Femmes">Montres Femmes</a></p>
+                <a href="marques"><p class="Marques">Marques</a></p>
+                <a href="Apropos"><p class="A Propos">A Propos</a></p>
+                 {# <a href="{{ path('app_login') }}">Connexion</a></li>
+            {% endif %}
+                    {% if app.user %}
+              <a href="{{ path('app_logout') }}">Déconnexion</a></li>
+            {% endif %}     #}
+            </div>    
+        </header>
+         {% block body %} {% endblock %}
+    <footer>
+        <div class="piedPage">
+            <div class="apropos">
+                <h4><a href="Apropos">A propos</a></h4>
+                <ol>
+                <ul><a href="CGV">CGV</a></ul>
+                <ul><a href="Mentions legales">Mentions legales</a></ul>
+                <ul><a href="Faqs">Faqs</a></ul>  
+                </ol>
+            </div>
+
+            <div class="commande">
+             <h4><a href="suivrevotrecommande">SUIVEZ VOTRE COMMANDE</a></h4>        
+            </div>    
+                
+            <div class="contact">
+                <h4> <a href="contacts">CONTACTEZ-NOUS</a></h4>
+                <img src="img/logo/ic_baseline-email.png" alt="courriel"> <a href="adressemail">Watch_Style@gmail.com</a>
+                <p>(+33)753709930</p>
+            </div>
+            <div class="suiveznous">
+                <h4><a href="SUIVEZ-NOUS">SUIVEZ-NOUS</a></h4>
+                <a href="https://www.twiter.com/" class="reseau_sociaux"><img src="img/logo/Vector.png" alt="utilisateur"></a>
+                <a href="https://www.instagram.com" class="reseau_sociaux"><img src="img/logo/Vector (1).png" alt="utilisateur"></a>
+                <a href="https://www.facebook.com/" class="reseau_sociaux"><img src="img/logo/Vector (2).png" alt="utilisateur"></a>
+                  
+            </div>    
+        </div>
+        <div class="finPage">
+            <div class="paiement">
+                <div class="visa">
+                    <img src="img/logo/Vector (5).png" alt="">
+                </div>
+                <div class="paypal">
+                    <img src="img/logo/logos_paypal.png" alt="">
+                </div>
+            </div>
+
+          
+        </div>
+        <div class="copyright">
+            <div>watch-style@2022</div>
+       
+        </div>
+       
+    </footer>    
+
+
+    </body>
+</html>

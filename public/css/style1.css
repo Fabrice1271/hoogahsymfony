@@ -1,0 +1,304 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px 12px;
+    
+}
+.coteneur_header {
+    background: url(../img/imageTetePage/Rectangle\ 21.png);
+    height: 447px;
+    background-size: 100% 442px;
+    background-repeat: no-repeat
+}
+.coteneur_menu {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 44px;
+}
+input::placeholder {
+    color: #efefef;
+     
+}
+input#searchbar {
+    padding: 3px;
+}
+.textlogo img {
+    margin-left: 16px;
+}
+.information {
+    margin-right: 2%;
+    display: flex;
+}
+.icon1 , .icon2{
+    margin-left: 11px;
+}
+
+.logo{
+    margin-right: 2%;
+}
+
+#searchbar {
+    width: 187px;
+    height: 29px; 
+    background: #cdc2c2b8;
+    border-radius: 30px;
+}
+p.textserch { 
+    font-family: 'Spirax';
+    font-style: normal; 
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 302px;
+    text-decoration: none;
+}
+
+p.textlogo {
+    color: #f9f9f9;
+    font-size: 24px;
+}
+ 
+p.Montres.Hommes, .Montres.Femmes, .Marques, .A.Propos {
+    width: 169px;
+    height: 29px;
+    background-color: #D9D9D9;
+    border: 2px solid #a9a9a9;
+    border-radius: 78px;
+    box-shadow: 12px 12px 12px #666060;
+    text-align: center;
+    justify-content: center;
+    /* text-decoration: none; */
+}
+.a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.contactez_nous {
+    /* margin: auto; */
+     justify-content: center; 
+    align-items: center; 
+    margin-left: 40%; 
+    width: 50%;
+    height: 510px;
+    border: 5px solid;
+    border-radius: 20px;
+    padding: 0px 50px 0 50px;
+    background: white;
+     margin-left: 25%;
+    margin-right: 25%; 
+    box-shadow: 20px 20px 20px #666060; 
+    /* display: flex;
+    flex-direction: column; */
+    /* text-align: center; */
+}
+input{
+    width: 500px;
+    height:30px;
+    border-radius: 10px;
+    background-color: #B7ABAB
+}
+textarea{
+    width: 500px;
+    height:83px;
+    border-radius: 10px;
+    border: solid 2px black;
+    background-color: #B7ABAB;
+}
+button{
+    margin:  auto;
+    background-color: #B7ABAB;
+}
+form.formulaire {
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+    -webkit-text-stroke: medium;
+   
+}
+
+p.desgin1 {
+    text-align: inherit;
+    margin-top: 34px;
+    font-style: revert;
+    font-size: large;
+}
+p.texte {
+    text-align: justify;
+    float: none;
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+ .piedPage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    background-color: #B7ABAB;
+    padding: 54px;
+    color: #080808;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h4 {
+
+    text-decoration: underline;
+    padding-bottom: 23px;
+}
+footer{
+   background-color: #B7ABAB;
+}
+.finPage{
+    display: flex;
+    justify-content: space-around;
+  
+
+    
+}
+#contact_nom{
+    margin: 0 auto;
+}
+.copyright{
+    text-align: center;
+   
+}
+.paiement{
+    display: flex;
+    margin-left: 0%;
+    margin-right: 80%;
+}
+.paypal{
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.menu a:hover{
+    color: blue;
+}
+/* css symfony pour page contact */
+.text-center:hover{
+color: blue;
+}
+
+.container.mt-5.pt-5 {
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 510px;
+    border: 5px solid;
+    border-radius: 20px;
+    padding: 0px 50px 0 50px;
+    background: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 20px 20px 20px #666060;
+    
+   } 
+/* *css de la table */
+
+input#contact_nom {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 2%;
+    box-shadow: 20px 20px 20px;
+    margin-left: 4px;
+}
+input#contact_prenom {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 2%;
+    box-shadow: 20px 20px 20px;
+    margin-left: 4px;
+}
+input#contact_email {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 2%;
+    box-shadow: 20px 20px 20px;
+    margin-left: 4px;
+}
+textarea#contact_message {
+    width: 500px;
+    height: 90px;
+    border-radius: 20px;
+    margin-top: 2%;
+    box-shadow: 20px 20px 20px;
+    margin-left: 4px;
+}
+.button:hover{
+    color:rgb(54, 50, 59);
+
+}
+.button{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px;
+
+}
+.container{
+    text-align: center;
+    border: 10px;
+    padding: auto;
+    box-shadow: inset;
+}
+/* css de la page inscription */
+.col-sm-6.offset-sm-3.mt-5.pt-5{
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 510px;
+    border: 5px solid;
+    border-radius: 20px;
+    padding: 0px 50px 0 50px;
+    background: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 20px 20px 20px
+}
+ .mb-3 {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 2%;
+    box-shadow: 0px 0px 0px; 
+    margin-left: 6px;
+
+}
+form {
+    margin-left: 60px;
+    text-align: start;
+}
+.form-check {
+    text-align: center;
+}
+input {
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: WHITE;
+}

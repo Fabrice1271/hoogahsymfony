@@ -1,0 +1,225 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px 12px;
+}
+.coteneur_header {
+    background: url(../img/imageTetePage/lucas-santos-huRn8ECqADI-unsplash.jpg);
+    height: 457px;
+    background-size: 125% 478px;
+    background-repeat: no-repeat
+}
+.coteneur_menu {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 44px;
+}
+input::placeholder {
+    color: #efefef;
+     
+}
+input#searchbar {
+    padding: 3px;
+}
+.textlogo img {
+    margin-left: 16px;
+}
+.information { 
+    margin-right: 2%;
+    display: flex;
+}
+.icon1 , .icon2{
+    margin-left: 11px;
+}
+
+.logo{
+    margin-right: 2%;
+}
+
+#searchbar {
+    width: 187px;
+    height: 29px; 
+    background: #cdc2c2b8;
+    border-radius: 30px;
+}
+p.textserch { 
+    font-family: 'Spirax';
+    font-style: normal; 
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.menu  {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 24%;
+    
+}
+.menu a:hover{
+    color: blue;
+
+}
+p.textlogo {
+    color: #f9f9f9;
+    font-size: 24px;
+}
+ 
+p.Montres.Hommes, .Montres.Femmes, .Marques, .A.Propos {
+    width: 169px;
+    height: 29px;
+    background-color: #D9D9D9;
+    border: 2px solid #a9a9a9;
+    border-radius: 78px;
+    box-shadow: 12px 12px 12px #666060;
+    text-align: center;
+    justify-content: center;
+}
+.Mhommehautgamme img{
+    width: 196px;
+    height: 233px;
+
+}
+h1{ 
+    text-align: center;
+    margin-top: 24px;
+    border: 2px solid black;
+    height: 42px;
+    width: 348px;
+    left: 358px;
+    top: 382px;
+    border-radius: 20px;
+    background-color: blue;
+    margin-inline: auto;
+    background-color:rgba(52, 57, 103, 1);
+}
+.lignemarque{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    margin-bottom: 300px;
+}
+.ligne{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+  
+}
+.rolex{
+    width: 276px;
+    height: 271px;
+    background: rgba(217, 217, 217, 1);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 120px;
+}
+.casio{
+    width: 276px;
+    height: 271px;
+    background: rgba(217, 217, 217, 1);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 120px;
+}
+.seiko{
+
+    width: 276px;
+    height: 271px;
+    background: rgba(217, 217, 217, 1);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 120px;
+}
+.lolarose{
+    width: 276px;
+    height: 271px;
+    background: rgba(217, 217, 217, 1);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 120px;
+}
+.jennlopez{
+
+    width: 276px;
+    height: 271px;
+    background: rgba(217, 217, 217, 1);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 120px;
+}
+.autres{
+    width: 276px;
+    height: 271px;
+    background: rgba(217, 217, 217, 1);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 120px;
+
+}
+h2{
+
+    text-align: center;
+    margin-top: 37%;
+}
+ 
+.piedPage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    background-color: #B7ABAB;
+    padding: 54px;
+    color: #080808;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h4 {
+
+    text-decoration: underline;
+    padding-bottom: 23px;
+}
+footer{
+   background-color: #B7ABAB;
+}
+.finPage{
+    display: flex;
+    justify-content: space-around;
+    
+
+    
+}
+.copyright{
+    text-align: center;
+   
+}
+.paiement{
+
+    display: flex;
+    margin-left: 0%;
+    margin-right: 80%;
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+}    
+
+
+.paypal{
+    margin-left: 10px;
+        
+}
+
+    
+
+    
+
+
+ 
